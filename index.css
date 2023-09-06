@@ -1,0 +1,67 @@
+body {
+    background-image: url("images/flowers.jpg");
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    background: #9DBBAE;
+    margin: 20px auto 20px auto;
+    border: 3px solid black;
+    border-radius: 40px;
+    width: 50%;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #F5E5FC;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    text-shadow: 0 0 3px black;
+}
+
+button:hover {
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+    border: 0px solid #00d7c3;
+  }
+
+#increment-btn {
+    background: #188FA7;
+}
+
+#save-btn {
+    background: #769FB6;
+}
+
+#save-el {
+    font-weight: bold;
+}
+
+footer {
+    background: #9DBBAE;
+    margin-top: auto;
+    min-width: 100%;
+}
